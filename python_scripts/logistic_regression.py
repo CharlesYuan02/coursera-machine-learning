@@ -64,7 +64,18 @@ if __name__ == "__main__":
     accuracy = regressor.accuracy(y_test, predicted)
     print(f"Final Training Accuracy: {regressor.accuracies[-1]}")
     print(f"Final Validation Accuracy: {accuracy}")
-    print(X_train.shape, y_train.shape)
+ 
+    # Note that the shape of the matrix will not allow you to plot a 2D line like linear regression
+    print(regressor.weights, regressor.bias)
+
+    # Visualize results
+    plt.figure(1)
+    cmap = plt.get_cmap("viridis")
+    m1 = plt.scatter(X_train[0], X_train[1], color=cmap(0.8), s=10)
+    m1 = plt.scatter(X_test[0], X_test[1], color=cmap(0.2), s=10)
+    plt.title("Breast Cancer Data")
+    plt.xlabel("x")
+    plt.ylabel("y")
 
     # Plot Accuracy
     n_iters = 1000
