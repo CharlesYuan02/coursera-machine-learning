@@ -15,7 +15,6 @@ class SVM:
         self.n_iters = n_iters
         self.weights = None
         self.bias = None
-        self.losses = []
 
     def fit(self, X, y):
         n_samples, n_features = X.shape
