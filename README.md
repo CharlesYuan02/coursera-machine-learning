@@ -28,6 +28,6 @@ My notes and code that I wrote while taking Andrew Ng's Machine Learning course 
 <img src="https://github.com/Chubbyman2/coursera-machine-learning/blob/main/certificate.jpg">
 
 ## References and Links
-[[1] Certificate Link](https://www.coursera.org/account/accomplishments/certificate/GDDBFB572MUQ)
+[[1] Certificate Link](https://www.coursera.org/account/accomplishments/verify/Y4343WDZ5QZX)
 
 [[2] Course Link](https://www.coursera.org/learn/machine-learning)
